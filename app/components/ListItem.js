@@ -29,7 +29,10 @@ const listItemStyles = StyleSheet.create({
         margin: 8,
         height:100,
         backgroundColor:'white',
-        flexDirection: 'row'
+        flexDirection: 'row',
+        borderRadius: 5,
+        borderColor: 'grey',
+        borderWidth: 1
     },
     viewCity:{
         flex: '1',
@@ -42,7 +45,7 @@ const listItemStyles = StyleSheet.create({
         alignItems: 'center'
     },
     itemText:{
-        color: 'green',
+        color: 'cornflowerblue',
         fontSize: 27
 
     },
@@ -51,7 +54,8 @@ const listItemStyles = StyleSheet.create({
         width: 50
     },
     temperatureText:{
-        fontSize: 15
+        fontSize: 18,
+        fontWeight: 'bold'
     }
 })
 

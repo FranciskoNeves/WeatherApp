@@ -34,11 +34,12 @@ export default function Detail({navigation}) {
 const styles = StyleSheet.create({
     firstContainer: {
         alignItems: "center",
-        marginBottom: 10
+        margin: 20
     },
     cityNameText:{
         fontSize: 35,
-        textTransform: "uppercase"
+        textTransform: "uppercase",
+        color: 'cornflowerblue'
     },
     temperatureText:{
         fontSize: 70,
@@ -54,7 +55,11 @@ const styles = StyleSheet.create({
         paddingTop: 5
     },
     secondaryText:{
-        fontSize: 25,
-        margin: 5
+        fontSize: 22,
+        margin: 5,
+        padding: 5,
+        borderWidth: 1,
+        borderRadius: 5,
+        backgroundColor: 'white'
     }
 })

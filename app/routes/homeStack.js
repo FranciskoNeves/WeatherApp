@@ -9,7 +9,7 @@ const screens = {
         navigationOptions: {
             title: "Meteorologia",
             headerStyle: {
-                backgroundColor: '#5a74db'
+                backgroundColor: 'steelblue'
             }
         }
     },
@@ -18,7 +18,7 @@ const screens = {
         navigationOptions: {
             title: "",
             headerStyle: {
-                backgroundColor: '#5a74db'
+                backgroundColor: 'steelblue'
             }
         }
     }
@@ -27,7 +27,7 @@ const screens = {
 const HomeStack = createStackNavigator(screens, {
     defaultNavigationOptions:{
         headerStyle:{
-            backgroundColor: '#5a74db'
+            backgroundColor: 'steelblue'
         }
     }
 });
